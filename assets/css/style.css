@@ -1,0 +1,690 @@
+@font-face{
+    font-family:"JFFlatRegular";
+    src:url("../fonts/JFFlatRegular.ttf");
+}
+
+img{
+    width:100%;
+}
+a{
+ text-decoration: none;   
+}
+a:hover{
+    color:black
+}
+:root{
+    --font-color:#000000;
+    --sub-font-color:#9E9E9E;
+    --font-famiy:"JFFlatRegular";
+    --gradient-color1:#7F61EB;
+    --gradient-color2:#7152E2;
+    --btn-color:#69E4F9;
+    --link-color:#FFC000;
+    --active-color:#7657E5;
+    --btn-font-color:#E1E1E1;
+}
+p{
+    font-size:1.3333333333333333em;;
+}
+ul{
+    padding:0;
+    margin:0;
+}
+ul li{
+    list-style-type: none;
+}
+.btn{
+    box-shadow: none;
+}
+.btn:focus{
+    outline: none;
+}
+body{
+     font-size: 16px;
+    background-color: #fff;
+    position: relative;
+    direction: rtl;
+    text-align: right;
+    font-family:"JFFlatRegular";
+    color:black;
+overflow-x: hidden;
+height: 100%;;
+}
+header{
+    height:80px;
+    background-color: white;
+    box-shadow: 0  2px 48px rgba(0, 0, 0, 0.06);
+    position: relative;
+    z-index: 22;
+    padding:19px 0
+}
+.hero{
+    position: relative;
+}
+.heroBG{
+    background: linear-gradient(45deg, var(--gradient-color1), var(--gradient-color2) );
+    border-radius: 0 0 40px 0;
+    width:42%;
+    height:100%;
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+.heroImg{
+    position: absolute;
+    right:0;
+    top:0;
+    width:50%;
+}
+.navbar-brand.logo{
+ width:115px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-item{
+    padding:10px 15px;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    font-size:.99em;
+    font-family:"DUBAI-REGULAR";
+    padding:0;
+    color:#9E9E9E;
+    position: relative;
+
+}
+.downloadBtn{
+    background-color: var(--btn-color);
+    color:  white;
+    width:135px;
+    height:45px;
+    border-radius: 4px;
+    border:1px solid var(--btn-color)
+}
+.downloadBtn:hover{
+    background-color: transparent;
+    color:var(--btn-color);
+    transition: all .5s;;
+}
+
+.navbar-expand-lg .navbar-nav  .nav-item.active .nav-link{
+    color:var(--active-color);
+    font-weight: bold;
+}
+.navbar {
+    padding:0;
+}
+
+
+
+.heroText{
+    padding-top:200px;
+    padding-bottom:100px
+}
+.heroText h5{
+    font-size:2.375em;
+    color:var(--font-color);
+    margin-bottom:18px
+}
+.heroText p{
+font-size: .9999em;
+color:var(--sub-font-color);
+margin-bottom:40px;
+
+}
+
+.appImg{
+    width:20px;
+    margin-left:10px;
+    float: right;
+}
+ .subscribeBox .form-control::placeholder{
+    color:#9E9E9E
+    ;
+    font-size:.9em
+}
+.appBtn{
+    background: linear-gradient(45deg, var(--gradient-color1), var(--gradient-color2) );
+    width:170px;
+    height: 54px;
+    border-radius: 27px;;
+    font-size:0.6666666666666666em;
+    color:var(--btn-font-color);
+    display: inline-block;
+border:1px solid transparent;
+transition: all .5s;;
+padding:10 20px 
+}
+.iphoneImg{
+position: absolute;
+width:320px;
+}
+.first{
+    right:0;
+    top:85px;
+}
+.second{
+    left:0;
+    top:-30%;
+}
+.third{
+    left:0;
+    top:40%;
+}
+.appBtn:hover{
+background-image: none;
+border:1px solid var(--gradient-color1);
+color:var(--gradient-color1)
+}
+.marginBtn{
+    margin-left: 20px;;
+}
+
+
+.adv{
+    padding-top:100px;
+    padding-bottom:60px;
+}
+
+.servicesBox{
+padding:50px 20px;
+text-align: right;
+box-shadow: 0  2px 48px rgba(0, 0, 0, 0.06);
+margin-bottom: 20px;;
+}
+.serviceIcon i{
+    font-size:22px;
+    margin-bottom:33px;
+    color:var(--gradient-color2)
+}
+.fa-phone{
+    transform:rotate(97deg)
+}
+.servicesBox h4{
+    font-size:1.125em;
+    margin-bottom: 13px;
+    color:var(--font-color);
+}
+.servicesBox p{
+    font-size:1.0625em;
+  color:var( --sub-font-color);
+}
+.advText{
+    margin-top:70px;
+}
+.whatDo{
+    border-radius: 16px;
+    background-color: #E7F3EF;
+    font-size:.7em;
+padding:10px 36px;
+color:var(--gradient-color1)
+}
+.advText h4{
+margin-top:30px;
+font-size: 2em;
+}
+.advText p{
+    color:#77838F;
+    font-size:1.125em;
+    margin-bottom:40px;
+}
+.num{
+    display: block;
+    border-radius: 50%;;
+width:30px;
+height:30px;
+text-align: center;
+padding: 0;
+line-height: 30px;
+float:right
+}
+.whatDoText{
+    width:90%;
+    display: inline-block;
+    margin-right:18px;
+}
+.whatDoText h5{
+   font-size: 1.125em
+}
+.advList li{
+    margin-bottom:35px;
+}
+.support{
+    background: linear-gradient(45deg, var(--gradient-color1), var(--gradient-color2) );
+padding:120px 0;
+}
+.support .whatDo{
+    color:var(--btn-color);
+    background-color: white;
+    padding:5px 35px;
+    font-size:0.75em;
+}
+.contactBtn{
+    background-color: white;
+    border:1px solid white;;
+    width:150px;
+    height:50px;
+    border-radius: 4px;
+    transition: all .5s;
+    line-height: 40px;
+    color:var(--gradient-color1);
+    margin-top:15px;
+
+}
+.contactBtn:hover{
+    background: linear-gradient(45deg, var(--gradient-color1), var(--gradient-color2) );
+    color:white;
+    transition: all .5s;;
+}
+.support h5{
+    font-size:3.4375em;
+    color:white;
+    margin-top:35px;
+}
+.screens{
+    padding-top:119px;
+    padding-bottom:80px;
+}
+.subscribe{
+    padding:70px 0;
+    position: relative;
+    background: linear-gradient(45deg, var(--gradient-color1), var(--gradient-color2) );
+    width:100%;
+}
+.subscribe::before{
+    content: "";
+    position:absolute;
+    background-image: url("../images/Image.png");
+    width:48%;
+    height: 100%;
+    right:0;
+    top:0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+ .subscribeBox .form-control{
+    background-color:white;;
+    border-radius: 0;
+    height:55px;
+    border:0;
+    width:100%;
+    color:#9E9E9E;
+
+    }
+    .subscribeBox .subscribeBtn{
+        background-color:white;
+        height:42px;
+        width:120px;
+        margin-top:30px;
+        color:var(--gradient-color1);
+        border:1px solid transparent;
+        transition: all .5s;
+        font-size:.1.2857142857142858em;
+        border-radius: 28px;
+        float: left;
+    }
+     .subscribeBox .subscribeBtn:hover{
+        border:1px solid white;
+        color:white;;
+        background: linear-gradient(45deg, var(--gradient-color1), var(--gradient-color2) );
+        transition: all .5s;;
+    }
+    .subscribeBox h6{
+        font-size:3.4375em;
+        color:white;
+    }
+    .subscribeBox span{
+        font-size:1.125em;;
+        color:#CFCFCF;
+    }
+    .subscribeBox form{
+        margin-top:20px;
+    }
+
+.sectionTitle{
+    margin-bottom: 35px;
+}
+.sectionTitle h2{
+    font-size:2em;
+    text-align: center;
+}
+.sectionTitle p{
+    font-size:1.125em;
+    color:#77838F;
+}
+.downloadApp{
+    padding:137px 0 100px;
+    background-color: #F7FAFD;;
+}
+.contact{
+    padding-top:32px;
+    padding-bottom: 40px;;
+}
+.contactInfo {
+    padding-bottom:30px;
+    border-bottom: 1px solid #E1E1E1;;
+}
+.contactInfo h3{
+    font-size: 2.375em;
+    color:#1D396B;
+    margin-bottom: 12px;;
+}
+.contactInfo span{
+    color:#9DB1BC;
+    font-size: .999em;
+}
+.contactList{
+    margin-top:25px;
+    margin-bottom: 40px;;
+}
+.contactList li{
+    margin-bottom: 24px;;
+}
+.contactList span{
+    color:var(--gradient-color1);
+    display: inline-block;
+    font-size: 1.125em;
+
+}
+.contactList p{
+    display: inline-block;
+    margin:0;
+    margin-right:30px;
+    font-size: 1.0625em;
+    color:var(--sub-font-color)
+}
+.contactForm .form-group{
+    margin-bottom:20px;
+}
+.contactForm .form-control{
+    background-color :white;
+    border-radius: 0;
+    height: 54px;
+    font-size: 1em;
+    color:var(--sub-font-color);
+    border:1px solid #E1E1E1;
+}
+.marginFormGroup{
+    margin-left:20px;
+}
+.halfFormGroup{
+width:47.5%;
+display: inline-block;
+}
+.contactForm .form-control::placeholder{
+    font-size: 1em;
+    color:var(--sub-font-color)
+}
+.contactForm textarea.form-control{
+    height:120px;
+    resize: none;
+    text-align: right;
+}
+.sendBtn{
+    width:223px;
+    height:54;
+    font-size:.9em;
+    transition: all .5s;;
+margin-top:25px;
+    border-radius: 27px;;
+    color:white;;
+    border:1px solid transparent;
+    float:left
+}
+.sendBtn:hover{
+    background-color:white;;
+    border-color:var(--gradient-color1);
+    transition: all .5s;;
+    color:var(--gradient-color1)
+}
+
+footer .container{
+    padding-top:25px;
+    padding-bottom:25px;
+    border-top:1px solid #E1E1E1;
+}
+
+ .copyRights h3{
+    text-align: right;
+    font-size:.9em;
+    color:#9E9E9E;
+    margin-bottom:0
+}
+.footerLink{
+    color:var(--gradient-color1);
+    margin-left:30px;
+    font-size:.9em;
+}
+.scrollNav {
+    top: 0 !important;
+    z-index: 999999999999;
+    animation-duration: .5s;
+    position: fixed !important;
+    transition: 1s all;
+    left: 0;
+    width:100%;
+    right:0;
+    transition: all .5s;;
+    animation:sticky;
+}
+
+.heroSection .socialIcons{
+    position: absolute;
+    bottom:  0;
+    left:0;;
+}
+.heroSection .container{
+    position: relative;
+}
+.call{
+    text-align: left;
+}
+@media(min-width:300px) and (max-width:767px){
+    .services{
+        padding:50px 0;
+    }
+    .servicesBox{
+        margin-bottom:20px;
+    }
+    body{
+        font-size:12px
+    }
+    .owl-carousel .owl-stage-outer{
+    overflow: hidden;
+}
+    .heroImg img{
+        width:100%;
+        height: auto;
+    }
+    .hero{
+        padding:20px 0;
+    }
+
+
+    .iphoneImg{
+display: none;    }
+    
+    .navbar-expand-lg .navbar-nav .nav-link:before{
+        display:none;
+    }
+    .downloadBtn{
+        width:100%;
+        margin-top:10px;
+    }
+
+    .contactForm{
+      padding:10px;
+    }
+
+.sendBtn ,.sendMessage.btn{
+    width:100%;
+}
+
+
+   footer{
+       padding:20px 0;
+   }
+
+
+.heroBG{
+    display: none;
+}
+.appBtn{
+    width:150px;
+}
+.adv {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.sectionTitle{
+    margin-bottom: 50px;
+}
+.subscribe::before{
+    display: none;
+}
+.halfFormGroup{
+    width: 100%;
+}
+.marginFormGroup{
+    margin-left:0
+}
+.heroText{
+        padding:20px 0px;
+    }
+    button.navbar-toggler {
+        position: relative;
+        border: none;
+        height: 40px;
+        width:50px;
+        cursor: pointer;
+        border-radius: 0;
+        opacity: .7;
+        border:1px solid var(--gradient-color1);;
+        text-align: center;
+    }
+
+  header{
+      padding:10px 0;
+      height:auto
+  }
+ 
+    .mobileMenu i{
+        background-color: var(--gradient-color1);
+        border-radius: 2px;
+        content: '';
+        display: block;
+        width: 95%;
+        height: 3px;
+        margin-bottom:5px
+    }
+    .mobileMenu i:last-child{
+    margin-bottom: 0;;
+    }
+
+    .navbar{
+        width:100%;
+        margin-bottom:20px;
+    }
+    .nav-link{
+        margin-bottom:10px;
+        margin-top:10px;
+    }
+    .navbar{
+        width:100%;
+        margin-top:20px;
+    }
+    .appBtn.sendBtn{
+        width:100%;
+        float: none;
+    }
+
+    .subscribeBox .subscribeBtn{
+        width: 100% ;
+        float: none;
+    }
+    .contactForm {
+        margin-top:20px;
+    }
+}
+
+@media(min-width:768px) and (max-width:1023px){
+    body{
+        font-size:14px
+    }
+    .appBtn{
+        width:140px;
+    }
+    .iphoneImg{
+        width:220px;
+    }
+    
+    .halfFormGroup {
+        width: 46%;}
+        .heroBG{
+            width:48%;
+        }
+.adv {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+header{
+    padding:0;
+}
+.services{
+    padding:50px 0
+}
+.servicesBox{
+    margin-bottom:20px;
+}
+footer{
+    padding:20px 0;
+}
+.sectionTitle{
+    margin-bottom:50px;
+}
+.navbar-brand.logo{
+    width:120px;
+}
+
+
+    .hero{
+        padding:20px 0;
+    }
+  
+
+  .marginBox{
+      margin-top:0;
+  }
+    .heroText{
+        padding-top: 20px;
+        padding-bottom:50px
+    }
+
+
+    .navbar-expand-lg .navbar-collapse{
+        display: flex;
+        flex-basis: auto;
+         }
+        .navbar-toggler{
+        
+            display: none;
+         } 
+    .navbar{
+        width:100%;
+        margin-top:20px;
+    }
+
+
+         .navbar-nav {
+            display: -ms-flexbox;
+            display: flex;}
+            .navbar-expand-lg .navbar-nav {
+                -ms-flex-direction: row;
+                flex-direction: row;
+            }
+.footer{
+    padding-top:50px;
+}
+.work{
+    padding:50px 0;
+}
+}
